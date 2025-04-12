@@ -1,0 +1,120 @@
+
+/* navbar */
+/* navbar */
+
+/* Mobile view adjustments */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #000000;
+        padding: 20px;
+        margin: 20px 0px 0px 0px;
+    }
+    .navbar-nav {
+        display: block;
+        text-align: center;
+    }
+}
+/* navbar */
+/* navbar */
+/* navbar */
+/* navbar */
+
+/* Responsive */
+
+
+/* hero section  */
+/* hero section  */
+/* hero section  */
+/* hero section  */
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 992px) {
+    .hero {
+       height: 910px !important;
+       
+    }
+    .hero-img {
+       margin-top: 30px
+    }
+    .hero-1{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 522px) and (max-width: 768px) {
+    .hero {
+       height: 900px !important;
+       
+    }
+    .hero-img {
+       margin-top: 50px
+    }
+}
+@media (min-width: 440px) and (max-width: 522px) {
+    .hero {
+       height: 930px !important;
+       
+    }
+    .hero-img {
+       margin-top: 50px
+    }
+    .hero-1{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 440px) {
+    .hero {
+        height: 950px !important;
+        
+     }
+     .hero-img {
+        margin-top: 50px
+     }
+     .hero-1{
+         margin-top: 10px;
+     }
+ }
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .hero-img {
+        max-width: 70%;
+    }
+}
+
+/* hero section  */
+/* hero section  */
+/* hero section  */
+/* hero section  */
+/* hero section  */
+@media (min-width: 992px) and (max-width: 1199px) {
+     .res-1 {
+        margin: 65px 0px 0px 0px; /* Sirf Button Ka Margin Change Hoga */
+    
+    }
+    .res-2{
+        padding:37px !important;
+    }
+}
+@media (min-width: 786px) and (max-width: 991px) {
+    .col-md-4 .res {
+        margin: 65px 0px 0px 0px; /* Sirf Button Ka Margin Change Hoga */
+    }
+    .res-2{
+        padding:27px !important;
+        
+
+    }
+}

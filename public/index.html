@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Automation Services</title>
+  <link rel="icon" type="image/png" href="img/Favicon.png" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS LINk  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FontAwesome Library (Latest Version) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<div class="preloader">
+  <img src="img/gif.gif" alt="Preloader">
+</div>
+
+<body>
+
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg custom-navbar" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="YouTube Logo" class="logo-height img-fluid" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+            <!-- Add "active" class by default -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+              <b>Services</b> <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Niche">Niche Research</a></li>
+              <li><a class="dropdown-item" href="#Script_Writing">Script Writing</a></li>
+              <li><a class="dropdown-item" href="#Voice_over">Voice Over</a></li>
+              <li><a class="dropdown-item" href="#Video_Editing">Video Editing</a></li>
+              <li><a class="dropdown-item" href="#Youtube_Thumbnail">YouTube Thumbnail</a></li>
+              <li><a class="dropdown-item" href="#Channel_Management">Channel Management</a></li>
+            </ul>
+          </li>
+
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div class="social-sidebar desktop-only">
+    <a href="https://www.youtube.com/@The.Creatorz/videos" class="social-link up" target="_blank"
+              ><i class="fab fa-upwork" style="color: #59ff00"></i
+            ></a>
+    <a href="https://www.fiverr.com" class="social-link fiverr" target="_blank">
+      <img src="img/images.jpeg" alt="Fiverr" />
+    </a>
+            <a href="https://www.linkedin.com" class="social-link linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com" class="social-link youtube" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.facebook.com" class="social-link facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.instagram.com" class="social-link instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+  </div> -->
+
+  
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center" id="home">
+    <div class="container hero-container text-white">
+      <div class="row align-items-center">
+        <!-- Left Image -->
+        <div class="col-lg-6 text-center text-lg-start hero-1" data-aos="fade-right">
+          <span class="span-1">Unlock Your Channel’s Full Potential</span>
+          <h1 class="hero-title"> Expert YouTube <br />Automation Services </h1>
+          <h2>For Global Channel Success</h2>
+          <div class="animated-line"></div>
+          <!-- Animated Line Below h2 -->
+
+          <p class="hero-text">
+            Get more views, more engagement, and more earnings with our YouTube automation solutions. We can't give you Wings, But we can help you Fly.
+          </p>
+          <!-- <a href="#" class="btn-custom">Free Consultation</a> -->
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-6 text-center text-lg-start" data-aos="fade-up">
+          <img src="img/704X498px.png.bv_resized_desktop.png" alt="Hero Image" class="img-fluid hero-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section" style="
+        background: url('img/3rd-bg.png') no-repeat center center/cover;
+        padding: 80px 0;
+      ">
+    <div class="container" data-aos="fade-down">
+      <h2 class="text-center text-white">Empowering Your YouTube Success</h2>
+      <div class="line-animation"></div>
+      <div class="row text-center">
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="stat-box">
+            <h3 class="counter" data-target="500">0+</h3>
+          </div>
+          <p class="stat-p">Channels Transformed</p>
+        </div>
+        <div class="col-md-3" data-aos="fade-down">
+          <div class="stat-box">
+            <h3 class="counter" data-target="10000">0+</h3>
+          </div>
+          <p class="stat-p">Videos Crafted</p>
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="stat-box res-2">
+            <h3>
+              <span class="million-counter" data-target="1000000">0</span>
+              Million+
+            </h3>
+            <!-- Counts 0 to 1M and adds "Million" -->
+          </div>
+          <p class="stat-p">Subscribers Gained</p>
+        </div>
+        <div class="col-md-3" data-aos="fade-down">
+          <div class="stat-box">
+            <h3 class="counter" data-target="50000">0+</h3>
+          </div>
+          <p class="stat-p">Content Hours Delivered</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about us section  -->
+  <!-- about us section  -->
+  <!-- about us section  -->
+  <!-- about us section  -->
+
+  <section class="about-section" id="about-us">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6" data-aos="fade-down">
+          <h2>Your Trusted Partner In YouTube Success</h2>
+          <p>
+            We’re YT CREATORS – Your Creative YouTube Video Editing Agency 🎬
+With 5+ years of experience, our expert team specializes in YouTube — from niche research, script writing, and voiceovers to video editing, thumbnails, and channel management. We provide everything you need in one place to help your channel grow and succeed...
+          </p>
+          <div class="about-btn-container">
+            <span class="read-more-text">Read More</span>
+            <a href="about.html" class="about-btn">About Us</a>
+          </div>
+          </a>
+        </div>
+        <div class="col-md-6 text-center" data-aos="fade-up">
+          <img src="img/about-image4th.png" alt="YouTube Expert" class="about-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+
+  <div class="container-fluid p-0 " id="services-section">
+    <div class="youtube-banner">
+      <span data-aos="fade-right">Explore Our YouTube Automation Services</span>
+    </div>
+  </div>
+
+  <section class="channel-section py-5 pt-5" id="Niche">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6 channel-image" data-aos="fade-down">
+          <img src="img/R.png" alt="Niche Research" />
+        </div>
+        <!-- Right Image -->
+        <div class="col-md-6 text-content mt-3" data-aos="fade-up">
+          <h2 class="channel-title">Niche Research</h2>
+          <p class="channel-text">
+            Your channel’s success starts with one thing – the right niche. We find profitable, low-competition niches and provide high-performing topic ideas to set you up for fast growth and real results. No more guessing. Just smart, strategic growth from the start.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Niche Research</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="channel-section" id="Script_Writing">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6 text-content" data-aos="fade-down">
+          <h2 class="channel-title">Script Writing</h2>
+          <p class="channel-text">
+            Great content starts with a great script. At YT CREATORS, we craft compelling scripts that captivate your audience and keep them engaged. Whether you're creating faceless videos, cash cow content, or engaging shorts, we ensure every script is tailored to your niche and goals. No more worrying about what to say. Just clear, impactful messaging that resonates and drives results.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Script Writing</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="col-md-6 channel-image" data-aos="fade-up">
+          <img src="img/script-writing.png" alt="Script Writing" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="channel-section" id="Voice_over">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6 channel-image" data-aos="fade-down">
+          <img src="img/voice-over.png" alt="voice-over" />
+        </div>
+        <!-- Right Image -->
+        <div class="col-md-6 text-content" data-aos="fade-up">
+          <h2 class="channel-title">Voice Over</h2>
+          <p class="channel-text">
+            The right voice can bring your content to life. At YT CREATORS, we provide professional voiceover services that match your brand’s tone and style. Whether you need an energetic, calm, or authoritative voice, we’ve got you covered. Our voices add that perfect touch, ensuring your audience connects with your message, making every video unforgettable.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Voice Over</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="channel-section" id="Video_Editing">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6 text-content" data-aos="fade-up">
+          <h2 class="channel-title">Video Editing</h2>
+          <p class="channel-text">
+            Editing is where the magic happens. At YT CREATORS, we turn raw footage into polished, professional videos that capture attention from the very first second. From seamless cuts to stunning effects, we ensure your videos are visually engaging and flow perfectly. Whether it’s for long-form content or short-form videos, our editing brings your vision to life and keeps your viewers hooked until the very end.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Video Editing</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="col-md-6 channel-image" data-aos="fade-down">
+          <img src="img/ve.png" alt="Video Editing" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="channel-section" id="Youtube_Thumbnail">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Right Image -->
+        <div class="col-md-6 channel-image" data-aos="fade-up">
+          <img src="img/yt-thumb.png" alt="Youtube Thumnails" />
+        </div>
+        <!-- Left Content -->
+        <div class="col-md-6 text-content" data-aos="fade-down">
+          <h2 class="channel-title">YouTube Thumbnails</h2>
+          <p class="channel-text">
+            Your thumbnail is the first impression your video makes. At YT CREATORS, we design eye-catching thumbnails that grab attention and boost clicks. Using bold, vibrant visuals and clear messaging, we ensure your thumbnails stand out in any feed, compelling viewers to hit play. We understand what works in each niche, creating thumbnails that enhance visibility and maximize engagement.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Youtube Thumnails</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="channel-section" id="Channel_Management">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6 text-content" data-aos="fade-up">
+          <h2 class="channel-title">Channel Management</h2>
+          <p class="channel-text">
+            Managing a YouTube channel is more than just uploading videos—it’s about strategy, consistency, and growth. At YT CREATORS, we handle everything from content planning to audience engagement, ensuring your channel runs smoothly and scales quickly. We optimize your uploads, track performance, and provide actionable insights to help you grow and succeed on YouTube. Let us take the stress out of channel management, so you can focus on creating content that matters.
+          </p>
+          <a href="services.html" class="custom-btn">Learn About Channel Management</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="col-md-6 channel-image" data-aos="fade-down">
+          <img src="img/channel-manage.png.webp" alt="Channel Management" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+  <!-- services secton  -->
+
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+
+  <section class="steps-section">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6" data-aos="fade-up">
+          <span class="progress-1">Optimizing Your YouTube Channel Strategy</span>
+          <h2 class="progree-2">Strategic Planning for YouTube Growth</h2>
+          <p class="progree-3">
+            Develop a tailored strategy to enhance your YouTube channel’s
+            performance, focusing on targeted growth and audience engagement.
+          </p>
+          <a href="mailto:moazzamtariq189@gmail.com" class="mail">
+            <img src="img/email-img.jpeg" alt="Email" class="img-fluid" />
+            &nbsp;moazzamtariq189@gmail.com
+          </a>
+        </div>
+
+        <!-- Right Progress Bars -->
+        <div class="col-md-6 mt-4" data-aos="fade-down">
+          <div class="mb-3">
+            <span>Data Collection</span>
+            <div class="progress">
+              <div class="progress-bar" data-progress="90">0%</div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <span>Market Research</span>
+            <div class="progress">
+              <div class="progress-bar" data-progress="92">0%</div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <span>SEO Optimization</span>
+            <div class="progress">
+              <div class="progress-bar" data-progress="95">0%</div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <span>Content Strategy</span>
+            <div class="progress">
+              <div class="progress-bar" data-progress="98">0%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+  <!-- Optimizing Your YouTube Channel Strategy -->
+
+  <!-- FAQ Section -->
+  <section class="Faq">
+
+    <!-- FAQ Section -->
+    <h2 class="faq-title">TOP QUESTIONS ABOUT OUR SERVICES</h2>
+    <p class="faq-subtitle">Find quick answers to the most frequently asked questions about our YouTube automation
+      services.</p>
+
+    <div class="faq-container">
+      <div class="faq-item">
+        <button class="faq-button">
+          What services do you offer for YouTube automation?
+          <span>+</span>
+        </button>
+        <div class="faq-answer ">
+          <p style="margin-bottom: 35px;">We offer services including content creation, SEO optimization, and channel
+            management.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-button">
+          How can YouTube automation benefit my channel?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          <p style="margin-bottom: 35px;">Automation helps you grow your channel by saving time, increasing engagement,
+            and optimizing content.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-button">
+          What is the process for starting with your services?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          <p style="margin-bottom: 35px;">You can start by contacting us, selecting a package, and we will handle the
+            automation for your channel.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-button">
+          How long does it take to see results?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          <p style="margin-bottom: 35px;">Results depend on the strategy but usually take a few weeks to a couple of
+            months.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-button">
+          What makes your services different?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          <p style="margin-bottom: 35px;">Our services are tailored for success with personalized strategies, AI-driven
+            analytics, and expert guidance.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section style="background-color: black;">
+
+    <div class="container text-center">
+      <div class="line line1 mb-3"></div>
+      <div class="line line2 mb-3"></div>
+      <div class="line line3"></div>
+    </div>
+
+
+  </section>
+  <!-- Contact US Form  -->
+  <!-- Contact US Form  -->
+
+  <section class="contact" id="contact-us">
+    <div class="container contact-header">
+      <a href="contact.html">
+        <p style="color: white;">
+          Get In <span class="bounce">Touch</span></p>
+      </a>
+      <p class="text-center text-muted">
+        If you have any questions, please click on Touch For Contact us!
+      </p>
+    </div>
+  </section>
+
+  <h2>Ask our Smart YouTube Automation AI</h2>
+  <textarea id="userInput" placeholder="Type your question here..."></textarea>
+  <button onclick="sendMessage()">Send</button>
+  <div id="chatbox"></div>
+  <!-- <div class="container">
+          <div class="iframe-container">
+            <iframe id="googleForm" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSejY6Upa19YhRb-pE9NDqr2wiwwvorXjPyUKBFVNtBUWLKPvw/viewform?embedded=true"
+                allowfullscreen>
+            </iframe>
+        </div>
+         </div> -->
+  </section>
+
+  <!-- Contact US Form  -->
+  <!-- Contact US Form  -->
+  <!-- Contact US Form  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/logo.png" class="foot" alt="" />
+          <p>
+            YouTube Automation Services offers expert solutions to enhance and
+            grow your YouTube channel.
+          </p>
+          <p>
+            Our services include channel management, content creation, and
+            optimization.
+          </p>
+        </div>
+        <div class="col-md-2 footer-links">
+          <h5 class="fw-bold" style="color: rgb(255, 0, 0)">Quick Links</h5>
+          <a href="index.html">Home</a>
+          <a href="#about-us">About Us</a>
+          <a href="services.html">Services & Plan</a>
+          <a href="#contact-us">Contact Us</a>
+        </div>
+        <div class="col-md-3 footer-contact">
+          <h5 class="fw-bold" style="color: rgb(255, 0, 0)">Contact Us</h5>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 5 Hillcrest Lane, Irvine,
+            Brazil, USA
+          </p>
+          <p><i class="fas fa-phone"></i> +2 1800 5460 8764</p>
+          <p><i class="fas fa-envelope"></i> moazzamtariq189@gmail.com</p>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="fw-bold" style="color: rgb(255, 0, 0)">Follow Us</h5>
+          <div class="social-icons">
+            <a href="https://www.youtube.com/@The.Creatorz/videos"
+              ><i class="fab fa-upwork" style="color: #37a000"></i
+            ></a>
+            <a href="https://www.fiverr.com/alfa_creatorz?source=gig_cards&referrer_gig_slug=make-hd-screencast-tutorial-video-or-website-app-explainer-video-with-voiceover&ref_ctx_id=843aa652a2e6467e8337ba82bc9953f9&imp_id=032da42c-e4a0-44ca-9b0d-112680ef0d19"
+              ><img
+                src="img/images.jpeg"
+                style="margin-bottom: 7px !important"
+                width="9%"
+                alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/zargham-tariq"
+            ><i class="fab fa-linkedin" style="color: #0077b5"></i
+          ></a>
+          <a href="https://www.youtube.com/@The.Creatorz/videos"
+            ><i class="fab fa-youtube" style="color: #ff0000"></i
+          ></a>
+          <a href="https://www.youtube.com/@The.Creatorz/videos"
+          ><i class="fab fa-facebook" style="color: #1877F2"></i
+        ></a>
+        <a href="https://www.youtube.com/@The.Creatorz/videos"
+        ><i class="fab fa-instagram" style="color: #ee2a7b"></i
+      ></a>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="line-animation-1"></div>
+    <div class="col-lg-12 col-sm-12">
+      <p class="footer-text text-center my-2">
+        Copyright © 2025 All rights reserved | This Website was made By
+        <i class="fa fa-solid fa-heart" style="color: red"></i>
+        <a href="https://www.fiverr.com/s/jj0rBGG" target="_blank"><span style="color: white">M Moazzam Tariq</span></a>
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- whatspaap button  -->
+  <!-- whatspaap button  -->
+  <div class="whatsapp-button">
+    <a href="https://api.whatsapp.com/send?phone=923392003360" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- whatspaap button  -->
+  <!-- whatspaap button  -->
+
+  <!-- Back to Top Button with Circular Progress -->
+  <!-- Back to Top Button with Circular Progress -->
+  <div id="backToTop">
+    <svg width="50" height="50">
+      <circle cx="25" cy="25" r="22" stroke="#fff" stroke-width="3" fill="none"></circle>
+      <circle id="progressCircle" cx="25" cy="25" r="22" stroke="#ff0000" stroke-width="3" fill="none"
+        stroke-dasharray="138" stroke-dashoffset="138"></circle>
+    </svg>
+    <span class="arrow">&#8593;</span>
+  </div>
+  
+
+  <script src="js/script.js"></script>
+<script>
+   async function sendMessage() {
+      const input = document.getElementById("userInput").value;
+      const chatbox = document.getElementById("chatbox");
+
+      chatbox.innerHTML += `<p><strong>You:</strong> ${input}</p>`;
+
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: input })
+      });
+
+      const data = await response.json();
+      chatbox.innerHTML += `<p><strong>Bot:</strong> ${data.reply || 'Something went wrong!'}</p>`;
+      document.getElementById("userInput").value = "";
+    }
+</script>
+  <!-- sweet alert  -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- smpt js  -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCLFJbY1HAPAtltN0nUQzaRz6vIJp9cVEI",
+      authDomain: "animation-services.firebaseapp.com",
+      projectId: "animation-services",
+      storageBucket: "animation-services.firebasestorage.app",
+      messagingSenderId: "950265010064",
+      appId: "1:950265010064:web:165e56910ec77d22228515",
+      measurementId: "G-Q9T7V8EFHB",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 150,
+      duration: 1000,
+    });
+  </script>
+</body>
+
+</html>
