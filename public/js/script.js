@@ -351,3 +351,15 @@ const observer = new IntersectionObserver((entries) => {
 observer.observe(aboutSection);
 
 
+document.querySelector("#sendBtn").addEventListener("click", async () => {
+  const userMessage = document.querySelector("#userInput").value;
+
+  const response = await fetch("https://YOUR-RENDER-URL.onrender.com/api/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: userMessage })
+  });
+
+  const data = await response.json();
+  document.querySelector("#response").innerText = data.reply;
+});
